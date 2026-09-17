@@ -1,0 +1,6 @@
+{
+  "crons": [
+    { "path": "/api/cron/settle-creator-rewards", "schedule": "*/5 * * * *" },
+    { "path": "/api/cron/reconcile-creator-rewards", "schedule": "0 * * * *" }
+  ]
+}

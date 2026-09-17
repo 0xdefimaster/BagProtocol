@@ -1,0 +1,52 @@
+{
+  "name": "bag-protocol",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "vitest run",
+    "seed:bags": "tsx scripts/seed-bags.ts",
+    "import:robinhood-assets": "tsx scripts/import-robinhood-assets.ts",
+    "import:coingecko-assets": "tsx scripts/import-coingecko-assets.ts",
+    "spike:lifi-quote": "tsx scripts/spike/lifi-quote-test.ts",
+    "compile:contracts": "hardhat compile",
+    "deploy:bag-factory": "tsx scripts/deploy-bag-factory.ts",
+    "test:contracts": "hardhat test"
+  },
+  "dependencies": {
+    "@lifi/composer-sdk": "^0.5.0",
+    "@lifi/sdk": "^4.6.0",
+    "@lifi/sdk-provider-ethereum": "^4.0.13",
+    "@supabase/supabase-js": "^2.112.2",
+    "@tailwindcss/postcss": "^4.3.3",
+    "jose": "^6.2.8",
+    "lucide-react": "^1.28.0",
+    "next": "14.2.35",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "viem": "^2.55.11"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-viem": "^5.0.7",
+    "@openzeppelin/contracts": "^5.1.0",
+    "@testing-library/react": "^14.3.1",
+    "@types/node": "^20.14.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.5.4",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.35",
+    "hardhat": "^3.14.0",
+    "jsdom": "^24.1.3",
+    "postcss": "^8.5.25",
+    "solc": "^0.8.24",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.20.6",
+    "typescript": "^5.5.2",
+    "vitest": "^2.1.9"
+  }
+}
