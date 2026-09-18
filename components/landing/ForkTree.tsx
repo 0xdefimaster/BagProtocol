@@ -2,7 +2,7 @@ import ForkTreeLines from "@/components/animations/ForkTreeLines";
 
 export default function ForkTree() {
   return (
-    <div className="wrap">
+    <section className="wrap">
       <div className="section-head" data-reveal>
         <span className="kicker">Strategy, forked</span>
         <h2>Fork a strategy the way you&apos;d fork a repo.</h2>
@@ -23,7 +23,7 @@ export default function ForkTree() {
           <ForkTreeLines />
           <svg
             id="forkSvg"
-            viewBox="0 0 900 300"
+            viewBox="0 -24 900 324"
             width="100%"
             height="auto"
             xmlns="http://www.w3.org/2000/svg"
@@ -92,7 +92,11 @@ export default function ForkTree() {
             </g>
           </svg>
         </div>
+        <div className="diagram-caption">
+          <span>bag:mag7 → 3 forks shown → royalties flow back up the tree</span>
+          <span>fig. 02 — fork lineage</span>
+        </div>
       </div>
-    </div>
+    </section>
   );
 }
