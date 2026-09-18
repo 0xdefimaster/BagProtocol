@@ -14,7 +14,7 @@ export function AppHeader() {
     <header>
       <div className="wrap nav">
         <Link href="/dashboard" className="brand">
-          <Image src="/logo.jpg" alt="Bag Protocol mark" width={32} height={32} />
+          <Image src="/logo.png" alt="Bag Protocol mark" width={32} height={32} />
           <div className="brand-text">
             <span className="b1">BAG PROTOCOL</span>
             <span className="b2 mono">Studio</span>

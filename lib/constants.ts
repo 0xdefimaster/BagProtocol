@@ -1,9 +1,9 @@
 export const NAV_LINKS = [
+  { href: "#github-for-finance", label: "GitHub for Finance" },
+  { href: "#what-is-a-bag", label: "What is a Bag?" },
+  { href: "#how-it-works", label: "How it works" },
+  { href: "#rewards", label: "Creator Rewards" },
   { href: "#spec", label: "Spec" },
-  { href: "#dna", label: "Strategy DNA" },
-  { href: "#lineage", label: "Standard" },
-  { href: "#flywheel", label: "How it works" },
-  { href: "#creators", label: "Creators" },
   { href: "#roadmap", label: "Roadmap" },
 ] as const;
 

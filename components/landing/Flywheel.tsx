@@ -7,7 +7,7 @@ const FLYWHEEL_STEPS = [
   { title: "Fork", body: "Others copy the Bag, adjust the weights, and publish their own version." },
   {
     title: "Earn",
-    body: "The original creator keeps earning royalties from every fork — the GitHub model.",
+    body: "The original creator keeps earning — 1.5% of every deposit into a fork, plus a fee on profits.",
   },
   { title: "Compound", body: "More forks, more liquidity, more reasons for wallets to adopt the spec." },
 ];
